@@ -24,3 +24,14 @@ svg .line                   {stroke: white; stroke-width: 4px; opacity: 1; }
 .nav {
   margin-bottom: 20px;
 }
+
+#chart rect {
+    fill: hsl(10, 80%, 70%);
+}
+
+#chart text {
+    fill: white;
+    font: 20px sans-serif;
+    text-anchor: end;
+    alignment-baseline: middle;
+}
